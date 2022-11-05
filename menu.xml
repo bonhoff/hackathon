@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/beige">
+
+    <data>
+
+    </data>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_menu"
+
+        android:orientation="vertical">
+
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/borde"
+            android:scaleType="fitXY"
+
+
+            android:text="bici"
+            app:srcCompat="@drawable/bicicleta" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="5dp"
+
+            android:background="@drawable/borde"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/tram" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+
+            android:layout_marginTop="5dp"
+
+            android:background="@drawable/borde"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/autobus" />
+    </LinearLayout>
+
+
+
+</layout>
